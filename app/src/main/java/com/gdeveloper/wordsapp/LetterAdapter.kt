@@ -1,4 +1,4 @@
-package com.example.wordsapp
+package com.gdeveloper.wordsapp
 
 import android.os.Build
 import android.view.LayoutInflater

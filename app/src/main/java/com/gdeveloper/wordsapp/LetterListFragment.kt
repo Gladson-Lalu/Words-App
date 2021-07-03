@@ -1,24 +1,17 @@
-package com.example.wordsapp
+package com.gdeveloper.wordsapp
 
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.wordsapp.databinding.FragmentLetterListBinding
+import com.gdeveloper.wordsapp.databinding.FragmentLetterListBinding
 
 class LetterListFragment : Fragment() {
     private var _binding: FragmentLetterListBinding? = null
-
     private val binding get() = _binding!!
-
     private lateinit var recyclerView: RecyclerView
     private var isLinearLayoutManager = true
 

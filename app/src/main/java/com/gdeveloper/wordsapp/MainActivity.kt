@@ -1,11 +1,11 @@
-package com.example.wordsapp
+package com.gdeveloper.wordsapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupActionBarWithNavController
-import com.example.wordsapp.databinding.ActivityMainBinding
+import com.gdeveloper.wordsapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
